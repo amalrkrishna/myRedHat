@@ -33,7 +33,7 @@ import sys, urllib2
 import os
 import requests
 
-lang_dict = {	'afrikaans' : 'af',
+lang_dict = {		'afrikaans' : 'af',
 				'albanian' : 'sq',
 				'arabic' : 'ar',
 				'belarusian' : 'be',
