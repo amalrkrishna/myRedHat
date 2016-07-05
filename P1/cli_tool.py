@@ -33,6 +33,7 @@ import sys, urllib2
 import os
 import requests
 
+#language abbrevation database
 lang_dict = {	'afrikaans' : 'af',
 		'albanian' : 'sq',
 		'arabic' : 'ar',
