@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+""" python3 utf16toutf8.py """
+
 """utf16toutf8.py: Write a program in Python to convert UTF-16 to UTF-8 for values in range of U+0000 to U+07FF.
 User will input UTF-16 (a2) and output will be UTF-8 bytes. (c2 a2)
 UTF-16 to UTF-8 conversion happens in following way."""
