@@ -6,8 +6,8 @@
 User will input UTF-16 (a2) and output will be UTF-8 bytes. (c2 a2)
 UTF-16 to UTF-8 conversion happens in following way."""
 
-__author__      = "Amal Krishna R"
-__date__      = "05/07/2016"
+__author__	= "Amal Krishna R"
+__date__	= "05/07/2016"
 
 #loop to check the input format and range.
 while True:
@@ -15,7 +15,7 @@ while True:
 	if utf16[:3] == "U+0" and (len(utf16)) == 6 and 0 <= int(utf16[2:], 16) < 2048:
 		break
 	else:
-		print("Format ex: 'U+00A2' in the range of U+0000 to U+07FF.")
+		print("usage: ex. 'U+00A2' in the range of U+0000 to U+07FF.")
 
 #convert utf16 to integer and binary code point.
 utf16 = utf16[2:]
