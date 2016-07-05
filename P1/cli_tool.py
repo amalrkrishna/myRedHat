@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+""" how to run examples:
+1) $ python cli_tool.py -ext example.html
+2) $ python cli_tool.py --language hindi
+3) $ python cli_tool.py -dis hindi
+"""
+
 """Programming test: Text Substitution
 
 Write a python CLI program/tool which should have three commands:
