@@ -17,10 +17,11 @@ Scenario: Suppose we have three python scripts say urls.py, controller.py, run.p
 __author__		= "Amal Krishna R"
 __date__		= "06/07/2016"
 
+from django.core.management import execute_from_command_line
 import os
 import sys
 
 if __name__ == "__main__":
+	#set the Django environment and parse the command line arguments.
 	os.environ.setdefault("DJANGO_SETTINGS_MODULE", "source.settings")
-	from django.core.management import execute_from_command_line
 	execute_from_command_line(sys.argv)

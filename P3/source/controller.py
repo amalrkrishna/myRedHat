@@ -2,6 +2,7 @@ from django.shortcuts import render, render_to_response
 from django.template import loader
 from django.http import HttpResponse
 
+#return template context for the three html pages.
 def name(request):
 	return render(request, 'home.html')
 
