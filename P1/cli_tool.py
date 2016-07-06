@@ -107,8 +107,6 @@ def extract_text(filename):
 		var = map(lambda it: it.strip('</'), var)
 		vari.append(var)
 
-	print vari
-
 	#open a file for writing the data into 'example.properties'
 	if os.path.exists('example.properties'):
 		f = open('example.properties', 'w+')
