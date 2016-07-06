@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html style="background-color: #000000">
+<head>
+	<title>RedHat | Home</title>
+</head>
+<body>
+    <h1 style="margin-left: 35%; align:center; background-color:red; width:30%; color:white; text-align: center; font-size:50px;font-family:arial">RED HAT</h1>
+    <div style="text-align:center;">
+    <p style="font-size:20px; color:white; font-family:arial" >Welcome to RED HAT, Inc. Enter your name below to proceed.
+    </p>
+    <form action="/home/" method="post" name="myForm">{% csrf_token %}
+	    <input type="text" name="name" placeholder="Enter Your Name"/>
+	    <input type="submit"  value="Submit" />
+    </form>
+    </div>
+</body>
+</html>
